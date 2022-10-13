@@ -29,11 +29,32 @@ const Receta = ({nombre, img, ingredientes, pasos}) => {
   </View>
 }
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    title: {
+        margin: 'auto',
+        textAlign: 'center',
+        fontWeight: '900',
+        fontSize: 20
+    },
+    subtitle: {
+        margin: 'auto',
+        textAlign: 'center',
+        fontWeight: '900',
+        fontSize: 15
+    },
+    image: {
+
+        width: 250,
+        height: 250
+    },
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: 100
+    },
+    section: {
+        marginTop: 50,
+        width: '90%',
+    }
 });
 export default Receta;
